@@ -12,8 +12,6 @@ public class FixedDepositAccount extends Account {
         super(number, holder);
     }
 
-    public boolean isMatured() { return matured; }
-
     public void setMatured(boolean matured) { this.matured = matured; }
 
     @Override

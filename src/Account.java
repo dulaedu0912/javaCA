@@ -20,8 +20,6 @@ public abstract class Account implements Transactable {
 
     public String getNumber() { return number; }
 
-    public String getHolder() { return holder; }
-
     public double getBalance() { return balance; }
 
     @Override

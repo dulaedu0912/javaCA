@@ -25,8 +25,6 @@ public class Customer {
 
     public String getName() { return name; }
 
-    public int getAccountCount() { return accountCount; }
-
     public boolean isFull() { return accountCount == MAX_ACCOUNTS; }
 
     public boolean addAccount(Account account) {
